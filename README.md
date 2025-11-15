@@ -54,6 +54,15 @@ Coefficients: Provided the p-values for each individual predictor (identifying A
 
 <img width="807" height="433" alt="image" src="https://github.com/user-attachments/assets/1fbe7771-2a6f-4663-bf38-88d9089e9f78" />
 
+**Interpretation**
+
+The objective of this study was to identify the key factors influencing the three-year Sharpe ratio of 25 Indian Large-Cap mutual funds through a multiple linear regression model. The model incorporated four predictor variables—Expense Ratio, Asset Under Management (AUM), Fund Age, and Turnover Ratio—to examine their combined and individual effects on risk-adjusted performance.
+
+The regression analysis showed that the model has a moderate level of explanatory power, with an Adjusted R² of 0.17. The regression model is statistically significant at the 5 percentage level (ANOVA p = 0.02), confirming that the predictors as a group play a relevant role in explaining performance differences. However, the model’s overall strength is modest, as the selected variables collectively account for only 17 percent of the variation in the sample’s Sharpe ratios.
+
+Among all variables, AUM emerged as the only statistically significant predictor, suggesting that larger funds tend to exhibit slightly higher risk-adjusted returns over the three-year period. This aligns with the preliminary scatterplot analysis, which indicated a weak-to-moderate positive relationship between AUM and Sharpe ratio.
+
+The other predictors—Expense Ratio, Fund Age, and Turnover Ratio—did not show statistically significant effects in this model, although their inclusion helped ensure a comprehensive understanding of fund characteristics. The VIF scores confirmed no multicollinearity, validating the stability of the regression coefficients.
 
 
 
