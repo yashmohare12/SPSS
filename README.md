@@ -15,6 +15,8 @@ Every other variable intended for the subsequent regression analysis was set to 
 
 
 
+
+
 **Step 2**: **Data Entry**
 With the variables defined, the collected data for the 25 Large Cap funds was entered into the "Data View." Each row represents a single fund (a "case"), and each column represents one of the variables. Step 2: Data Entry and Structuring
 
@@ -25,6 +27,8 @@ Rows as Cases: Each row represented a single fund (the observation unit).
 Columns as Variables: Each column was reserved for a single metric (e.g., 3-Year Annualized Return).
 <img width="831" height="563" alt="image" src="https://github.com/user-attachments/assets/99029c88-dbec-4ac5-af93-569ec21e6fc5" />
 <img width="829" height="568" alt="image" src="https://github.com/user-attachments/assets/207a40c3-8368-445e-8dab-2886b2ee4125" />
+
+
 
 
 
@@ -46,6 +50,8 @@ Turnover_ratio_in_percentage
 
 
 
+
+
 **Step 4**: **Output & Interpretation**
 After running the analysis, the SPSS Output Viewer generated the key tables. These tables provided the complete statistical findings for the project:
 Model Summary: Showed the Adjusted R-Square (0.17), indicating the model's explanatory power.
@@ -53,6 +59,7 @@ ANOVA: Showed the overall model's significance (p = 0.02).
 Coefficients: Provided the p-values for each individual predictor (identifying AUM as significant) and the VIF scores (confirming no multicollinearity).
 
 <img width="807" height="433" alt="image" src="https://github.com/user-attachments/assets/1fbe7771-2a6f-4663-bf38-88d9089e9f78" />
+
 
 **Interpretation**
 
@@ -63,6 +70,13 @@ The regression analysis showed that the model has a moderate level of explanator
 Among all variables, AUM emerged as the only statistically significant predictor, suggesting that larger funds tend to exhibit slightly higher risk-adjusted returns over the three-year period. This aligns with the preliminary scatterplot analysis, which indicated a weak-to-moderate positive relationship between AUM and Sharpe ratio.
 
 The other predictors—Expense Ratio, Fund Age, and Turnover Ratio—did not show statistically significant effects in this model, although their inclusion helped ensure a comprehensive understanding of fund characteristics. The VIF scores confirmed no multicollinearity, validating the stability of the regression coefficients.
+
+
+
+
+
+
+
 
 
 
